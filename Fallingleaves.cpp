@@ -5,11 +5,13 @@ using namespace std;
 
 int main()
 {
-	int number=100;
+	int LeafNumber;
+	cout << "How many leaves are there on the tree?" <<endl;
+	cin >> LeafNumber;
 	cout << "A leaf is on the ground." << endl;
-	for (int i = 1; i < number; i++) {
-		cout << "Another leaf falls " << i << " leaves is on the ground." << endl;
-		if (i == 20) 
+	for (int i = 1; i < LeafNumber; i++) {
+		cout << "Another leaf falls, " << i << " leaves is on the ground." << endl;
+		if (i == LeafNumber) 
 		{ 
 			break; 
 		}
